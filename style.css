@@ -1,0 +1,37 @@
+.customDiv{
+  
+  min-height: 2000px;
+  text-align: center;
+  margin: 1px;
+ background-color: #FEEEC1;
+ opacity: 1;
+}
+
+.customDiv p{
+	text-align: center;
+}
+.customDiv h3{
+	text-align: center;
+}
+.customDiv h4{
+	text-align: center;
+}
+.customDiv h1{
+	text-align: center;
+}
+.customDiv1{
+
+  background-color: black;
+  min-height: 500px;
+  text-align: center;
+  margin: 1px;
+  opacity: 0.8;
+  
+}
+
+.body{
+  background-image: url(8-1024x683.jpg);
+}
+.left{
+	text-align: left;
+}
