@@ -9,6 +9,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
 <link rel="stylesheet" href="style.css"> 
 <style> 
@@ -64,15 +66,46 @@ section {
     75%  {background-color:#473C8B; left:0px; top:0px;}
 }
 .btn-xl {
-    padding: 10px 50px;
+    padding: 10px 100px;
     font-size: 20px;
     border-radius: 100px;
 }
 
+#home {
+  background: url(m12.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+
+#footer {
+  background-color: black;
+  display: table;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  height: 110px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
 </style>
 </head>
- <body background="m12.jpg" no-repeat;>
-
+ <body>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -82,7 +115,7 @@ section {
   <!-- getting started-->
 
 
-
+<div id="home">
 <div class="container">
   <div class="row">
     <div class="col-md-3">
@@ -99,7 +132,7 @@ section {
       <br>
       <br>
       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-       <button class="btn btn-success btn-xl" onclick="window.location.href='index1.html'">Visit our site!</button>
+       <button class="btn btn-success btn-xl fixed" onclick="window.location.href='index1.html'">Visit our site!</button>
 
   
       </div>
@@ -112,6 +145,20 @@ section {
 
 
 </div>
+</div>
+
+
+<div id="footer">
+<div class="row">
+<div class="col-md-5"></div>
+<div class="col-md-6">
+<a href="https://www.twitter.com/adityarathi42" target="_blank" class="fa fa-twitter"></a>
+<a href="https://www.facebook.com/adityarathi42" target="_blank" class="fa fa-facebook"></a>
+<a href="https://www.github.com/adityarathi42" target="_blank" class="fa fa-github"></a>
+
+</div>
+</div>
+
 </div>
   
   </body>
